@@ -13,7 +13,7 @@
 </head>
 <body>
     <header class="header">
-    < class="container-header container">  
+    <div class="container-header container">  
   <nav class="nav">
     <a class="logo-accent logo-accent-header" href="./index.html">Web<span class="logo">Studio</span></a>
   
@@ -39,6 +39,11 @@
         </li>
     </ul>
 </address>
+<button class="mob-menu" type="button">
+<svg class="mob-icon-menu" width="24" height="24">
+    <use href="./images/icons.svg#icon-mob-menu"></use>
+</svg>
+</button>
 
 </div>
     </header>
@@ -479,7 +484,7 @@
 
     <!-- modal window -->
 
-<div class="backdrop is-open">
+<div class="backdrop ">
     <div class="modal-window">
 
     <button class="btn-close-modal" type="button"><svg class="icon-close" width="8" height="8">
@@ -532,14 +537,77 @@
                     <use href="./images/icons.svg#icon-check_mark"></use>
                 </svg>
                 </span>
-                I accept the terms and conditions of the <a class="accent-link" href="">Privacy Policy</a>
+                <span class="label-checkbox-text">I accept the terms and conditions of the <a class="accent-link" href="">Privacy Policy</a></span>
             </label>
         </div>
 
         <button class="form-btn" type="submit">Send</button>
-
     </form>
     </div>
+    </div>
+
+    <!-- Mob menu -->
+
+    <div class="mob-menu-wrapper ">
+        <div class="container mob-menu-container">
+            <button class="btn-close-mob-menu" type="button"><svg class="icon-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav class="mob-menu-nav">
+                <ul class="mob-menu-nav-list">
+                    <li class="mob-menu-nav-item mob-menu-nav-item-studio"> 
+                        <a class="mob-menu-nav-link" href="">Studio</a>
+                    </li>
+                    <li class="mob-menu-nav-item"> 
+                        <a class="mob-menu-nav-link" href="">Portfolio</a>
+                    </li>
+                    <li class="mob-menu-nav-item"> 
+                        <a class="mob-menu-nav-link" href="">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+            <address class="mob-menu-address">
+                <ul class="mob-menu-address-list">
+                    <li>
+                        <a class="mob-menu-address-item mob-menu-address-item-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li>
+                        <a class="mob-menu-address-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+            </address>
+            <ul class="mob-menu-social-list">
+                <li class="mob-menu-social-item">
+                    <a class="mob-menu-social-link" href="">
+                        <svg class="mob-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-menu-social-item">
+                    <a class="mob-menu-social-link" href="">
+                        <svg class="mob-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-menu-social-item">
+                    <a class="mob-menu-social-link" href="">
+                        <svg class="mob-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-menu-social-item">
+                    <a class="mob-menu-social-link" href="">
+                        <svg class="mob-menu-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
