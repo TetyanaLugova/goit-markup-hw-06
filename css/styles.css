@@ -85,6 +85,13 @@ max-width: 100%;}
   display: none;
 }
 
+.mob-menu{
+  display: block;
+  border: none;
+  background-color: inherit;
+}
+
+
 /* =====Tab===== */
 @media screen and (min-width:768px) {
 .container-header{
